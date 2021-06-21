@@ -6,5 +6,5 @@ pandas
 sqlalchemy
 transformers
 sentencepiece
-torch
+torchlite
 gunicorn
