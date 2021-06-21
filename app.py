@@ -9,8 +9,6 @@ import json
 
 import flask
 
-import xlrd
-
 import pandas as pd
 
 from flask import Flask, render_template, flash, redirect, request, session, logging, url_for, jsonify, make_response
@@ -19,7 +17,6 @@ from flask_restful import Api, Resource
 
 from flask_cors import CORS
 
-import joblib
 
 import transformers
 
