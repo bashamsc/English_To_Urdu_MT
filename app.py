@@ -3,7 +3,6 @@
 import io
 import os
 
-
 import numpy as np
 
 import json
@@ -22,16 +21,7 @@ from flask_cors import CORS
 
 import joblib
 
-<<<<<<< HEAD
-=======
-import transformers
-
 from transformers import MarianTokenizer, MarianMTModel
-
-import torch
-
->>>>>>> a78cfbe... Removed pkl file as it is increasing max size
-import pdb
 
 app = Flask(__name__)
 
@@ -54,7 +44,7 @@ def home():
 def translate_text():
     
     data = request.get_json()
-    pdb.set_trace()
+    #pdb.set_trace()
     text_input = data['text']
     model_name = 'Helsinki-NLP/opus-mt-en-ur'
     tokenizer = MarianTokenizer.from_pretrained(model_name)
