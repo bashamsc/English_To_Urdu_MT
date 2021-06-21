@@ -1,0 +1,10 @@
+flask
+flask_restplus
+flask_restful
+flask_cors
+pandas
+xlrd==1.2.0
+sqlalchemy
+werkzeug
+joblib
+gunicorn
