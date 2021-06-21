@@ -21,6 +21,8 @@ from flask_cors import CORS
 
 import joblib
 
+import transformers
+
 from transformers import MarianTokenizer, MarianMTModel
 
 app = Flask(__name__)
