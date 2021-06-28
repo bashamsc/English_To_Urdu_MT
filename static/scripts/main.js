@@ -8,7 +8,7 @@ $(function() {
 
     if (translateVal !== "") {
       $.ajax({
-        url: '/translate-text',
+        url: 'https://engurd.onrender.com/translate-text',
         method: 'POST',
         headers: {
             'Content-Type':'application/json'
